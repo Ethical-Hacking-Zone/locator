@@ -42,7 +42,7 @@ clear
 
 else
 	unzip server.zip
-echo "\e[1;92m Starting Tool...."
+echo -e "\e[1;92m Starting Tool...."
 sleep 3
 clear
 
