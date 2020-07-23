@@ -5,8 +5,8 @@
 ## IG: instagram.com/thelinuxchoice
 ### Don't copy this code without give me the credits, nerd! 
 
-Geolocator, Ip Tracker, Device Info by URL (Serveo and Ngrok).
-It uses tinyurl to obfuscate the Serveo link.
+Geolocator, Ip Tracker, Device Info by URL (Ngrok).
+It uses tinyurl to obfuscate the Ngrok link.
 
 
 ## Legal disclaimer:
