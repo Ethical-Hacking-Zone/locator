@@ -1,5 +1,5 @@
 #!/bin/bash
-# Locator v1.3
+# Locator v1.4
 # Coded by: thelinuxchoice (You dont become a coder by just changing the credits)
 # Re-Edited & Re-Uploaded By: kNIGHT
 # Github: https://github.com/Ethical-Hacking-Zone/locator
@@ -15,9 +15,7 @@ if [[ $ostype -eq 'Y' || $ostype -eq 'y' ]]; then
 echo -e "\e[4;95m Installing Dependencies.... \e[0m"
 sleep 0.5
 echo -e "\e[1;96m"
-apt install openssh wget curl php toilet figlet unzip exa ruby
-gem install lolcat
-wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+apt install openssh curl php toilet figlet unzip
 touch plugins.installed
 echo -e "\e[3;94m Dependencies Installed!"
 sleep 2
@@ -26,9 +24,7 @@ elif [[ $ostype -eq 'N' || $ostype -eq 'n' ]]; then
 echo -e "\e[4;95m Installing Dependencies.... \e[0m"
 sleep 0.5
 echo -e "\[1;96m"
-sudo apt install wget curl php toilet figlet unzip ruby
-gem install lolcat
-wget -O $PREFIX/usr/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+sudo apt install curl php toilet figlet unzip
 touch plugins.installed
 echo -e "\e[3;94m Dependencies Installed!"
 sleep 2
@@ -342,8 +338,8 @@ done
 
 banner() {
 
-toilet -F border:gay -f ASCII-Shadow Locator
-echo -e '\e[1;96m                                                         v1.3 \e[0m'
+toilet -F border:gay -f slant Locator
+echo -e '\e[1;96m                                                         v1.4 \e[0m'
 echo -e '\e[1;96m :::\e[0m\e[1;93m Coded by: @linux_choice\e[0m'
 echo -e '\e[1;96m :::\e[0m\e[1;93m Re-Edited & Re-Uploaded By: kNIGHT From @Ethical-Hacking-Zone'
 echo -e '\e[1;96m :::\e[0m\e[1;93m Credits To: @GuArdiAn For Having The Script Before Repo Was Banned'
