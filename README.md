@@ -1,4 +1,4 @@
-# Locator v1.3
+# Locator v1.4
 ## Author: github.com/thelinuxchoice/locator
 ## Re-Editor & Re-Uploader: github.com/cyberknight777
 ## IG: instagram.com/cyb3r_kn1ght_0ff1c1al
